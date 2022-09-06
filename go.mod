@@ -1,3 +1,3 @@
-module schneider.vip/problem
+module github.com/thlib/problem
 
 go 1.13

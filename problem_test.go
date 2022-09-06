@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"schneider.vip/problem"
+	"github.com/thlib/problem"
 )
 
 func TestProblem(t *testing.T) {

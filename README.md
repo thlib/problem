@@ -1,7 +1,7 @@
 # problem
 ![Coverage](https://img.shields.io/badge/Coverage-100.0%25-brightgreen)
-[![PkgGoDev](https://pkg.go.dev/badge/schneider.vip/problem)](https://pkg.go.dev/schneider.vip/problem)
-[![Go Report Card](https://goreportcard.com/badge/schneider.vip/problem)](https://goreportcard.com/report/schneider.vip/problem)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/thlib/problem)](https://pkg.go.dev/github.com/thlib/problem)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thlib/problem)](https://goreportcard.com/report/github.com/thlib/problem)
 
 A golang library that implements `application/problem+json` and `application/problem+xml`
 
@@ -20,7 +20,7 @@ A golang library that implements `application/problem+json` and `application/pro
 ## Install
 
 ```bash
-go get -u schneider.vip/problem
+go get -u github.com/thlib/problem
 ```
 
 ## Usage
@@ -127,3 +127,6 @@ func ProblemHandler(err error, c echo.Context) {
 // e is an instance of echo.Echo
 e.HTTPErrorHandler = ProblemHandler
 ```
+
+# Note
+This is a fork of https://github.com/mschneider82/problem but can be imported directly from github without depending on a custom domain.
